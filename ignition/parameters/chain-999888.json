@@ -1,0 +1,19 @@
+{
+  "SwapRouter": {
+    "factory": "-",
+    "WETH": "0x9423878649c42c6a7828fc66de3cf0046ecf7bbf"
+  },
+  "NonfungibleTokenPositionDescriptor": {
+    "NFTDescriptor": "=",
+    "nativeLabel": "-"
+  },
+  "NonfungiblePositionManager": {
+    "NonfungibleTokenPositionDescriptor": "=",
+    "factory": "-",
+    "WETH": "0x9423878649c42c6a7828fc66de3cf0046ecf7bbf"
+  },
+  "QuoterV2": {
+    "factory": "-",
+    "WETH": "0x9423878649c42c6a7828fc66de3cf0046ecf7bbf"
+  }
+}
