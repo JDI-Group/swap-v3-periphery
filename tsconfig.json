@@ -1,14 +1,12 @@
+/* Based on https://github.com/tsconfig/bases/blob/501da2bcd640cf95c95805783e1012b992338f28/bases/node22.json */
 {
   "compilerOptions": {
-    "target": "es2018",
-    "module": "commonjs",
+    "target": "es2022",
+    "lib": ["es2023"],
+    "module": "Preserve",
+    "moduleResolution": "bundler",
     "strict": true,
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "outDir": "dist",
-    "typeRoots": ["./typechain", "./node_modules/@types"],
-    "types": ["@nomiclabs/hardhat-ethers", "@nomiclabs/hardhat-waffle"]
-  },
-  "include": ["./test"],
-  "files": ["./hardhat.config.ts"]
+    "skipLibCheck": true
+  }
 }

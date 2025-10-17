@@ -1,0 +1,10 @@
+{
+  "NFTDescriptor#NFTDescriptor": "0x54dBCf3be2F19C7aD632f0D62432f935280823E7",
+  "Quoter#Quoter": "0x80B28F551fD1aE5b9807158E66012E11117339dD",
+  "QuoterV2#QuoterV2": "0x3BcF321d0635ef571a35Cd64148b11CA11B6558a",
+  "SwapRouter#SwapRouter": "0xC36cB23Cee0AC4B98414B352cF5a7f542878AC8A",
+  "TickLens#TickLens": "0x2ce60a8cbd546557D561110BFc1a031996297c48",
+  "UniswapInterfaceMulticall#UniswapInterfaceMulticall": "0x1186894046B97893F788f0e33495999A49f8C58c",
+  "NonfungibleTokenPositionDescriptor#NonfungibleTokenPositionDescriptor": "0x23C4cBA33c7e940693BC056eB71b243a0B28D20b",
+  "NonfungiblePositionManager#NonfungiblePositionManager": "0x240819e8aD81Eb00a21A21e8a03A7ca0D3655041"
+}

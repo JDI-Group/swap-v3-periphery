@@ -4,15 +4,18 @@
     "WETH": "0x9423878649c42c6a7828fc66de3cf0046ecf7bbf"
   },
   "NonfungibleTokenPositionDescriptor": {
-    "NFTDescriptor": "=",
-    "nativeLabel": "-"
+    "WETH": "0x9423878649c42c6a7828fc66de3cf0046ecf7bbf",
+    "nativeLabel": "0x00000000000000000000000000000000000000000000000000000000004d4348"
   },
   "NonfungiblePositionManager": {
-    "NonfungibleTokenPositionDescriptor": "=",
     "factory": "-",
     "WETH": "0x9423878649c42c6a7828fc66de3cf0046ecf7bbf"
   },
   "QuoterV2": {
+    "factory": "-",
+    "WETH": "0x9423878649c42c6a7828fc66de3cf0046ecf7bbf"
+  },
+  "Quoter": {
     "factory": "-",
     "WETH": "0x9423878649c42c6a7828fc66de3cf0046ecf7bbf"
   }
