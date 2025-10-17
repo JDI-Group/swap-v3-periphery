@@ -5,6 +5,7 @@ import QuoterModule from './Quoter'
 import QuoterV2Module from './QuoterV2'
 import TickLensModule from './TickLens'
 import UniswapInterfaceMulticallModule from './UniswapInterfaceMulticall'
+import V3MigratorModule from './V3Migrator'
 
 /**
  * Complete deployment module - Deploy all Uniswap V3 Periphery contracts at once
@@ -15,7 +16,7 @@ const DeploymentsModule = buildModule('Deployments', (m) => {
   // Core contracts
   const { SwapRouter } = m.useModule(SwapRouterModule)
   const { NonfungiblePositionManager } = m.useModule(NonfungiblePositionManagerModule)
-  
+  const { V3Migrator } = m.useModule(V3MigratorModule)
   // Lens 合约（辅助工具）
   const { Quoter } = m.useModule(QuoterModule)
   const { QuoterV2 } = m.useModule(QuoterV2Module)
@@ -26,7 +27,7 @@ const DeploymentsModule = buildModule('Deployments', (m) => {
     // Core contracts
     SwapRouter,
     NonfungiblePositionManager,
-    
+    V3Migrator,
     // Lens contracts
     Quoter,
     QuoterV2,

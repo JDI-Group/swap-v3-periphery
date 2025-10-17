@@ -6,5 +6,6 @@
   "TickLens#TickLens": "0x2ce60a8cbd546557D561110BFc1a031996297c48",
   "UniswapInterfaceMulticall#UniswapInterfaceMulticall": "0x1186894046B97893F788f0e33495999A49f8C58c",
   "NonfungibleTokenPositionDescriptor#NonfungibleTokenPositionDescriptor": "0x23C4cBA33c7e940693BC056eB71b243a0B28D20b",
-  "NonfungiblePositionManager#NonfungiblePositionManager": "0x240819e8aD81Eb00a21A21e8a03A7ca0D3655041"
+  "NonfungiblePositionManager#NonfungiblePositionManager": "0x240819e8aD81Eb00a21A21e8a03A7ca0D3655041",
+  "V3Migrator#V3Migrator": "0xb5E2A4df37399e88C1264cee47e65dcAbfF2Dd3B"
 }
